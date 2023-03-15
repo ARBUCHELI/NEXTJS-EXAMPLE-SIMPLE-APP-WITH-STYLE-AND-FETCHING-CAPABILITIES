@@ -40,7 +40,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>News Feed</h1>
+        <h1 className={styles.title}>NY Times News Feed</h1>
 
         <form onSubmit={handleOnSubmit}>
           <input type="text" onChange={handleOnChange} />
@@ -66,7 +66,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by Bucheli Web Development © 2023, and {' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
